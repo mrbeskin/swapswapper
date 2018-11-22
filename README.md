@@ -1,4 +1,4 @@
-# update-swap-id
+# swapswapper
 
 This is a simple Go library for replacing a Linux system swap UUID in `/etc/fstab`. 
 
