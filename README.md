@@ -29,4 +29,4 @@ func main() {
 }
 ```
 
-If you did this, and meet the above assumptions, your `/etc/fstab` will have the value of `<your new UUID>` as the UUID value for the first swap file. That's it.  
+If you did this, and meet the above assumptions, your `/etc/fstab` will have the value of `<your new UUID>` as the UUID value for the first swap partition listed. That's it.  
