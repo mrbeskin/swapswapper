@@ -6,7 +6,7 @@ import (
 	"strings"
 )
 
-// ReplaceSwapUUID opens /etc/fstab and replaces the first swap id
+// ReplaceSwapUUID reads /etc/fstab and replaces the first swap id
 // found there with the one passed in
 func ReplaceSwapUUID(newUUID string) error {
 	fstabName := "/etc/fstab"
